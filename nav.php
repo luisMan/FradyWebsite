@@ -1,8 +1,15 @@
 	
 	 <div class="voice_nav">
 	 <a href="index.php"><div class="voice_logo"></div></a>
+	 <ul class="pageTabs">
+	 	<li>Home</li>
+	 	<li>Our Projects</li>
+	 	<li>Expertise</li>
+	 	<li>Our History</li>
+	 	<li>Contact US</li>
+	 </ul>
+	 
 	 <?php
-
 	 if(!$loggedin){
 	 echo '<div class="button_user"><label>Check In</label>
 	 <ul>	

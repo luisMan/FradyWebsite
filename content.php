@@ -17,7 +17,7 @@
      <div class="voice_news">
       <!-- contents that refers to all hot news topics on the news -->
     <div class="userPost">
-       <?php $object->getGlobalNews($user,$language,$category);?>
+       <?php #$object->getGlobalNews($user,$language,$category);?>
 
     </div><!--close voice news -->
 

@@ -1,4 +1,4 @@
-<title>LinkedVoice</title>
+
   <?php 
 include_once("definitions.php");
 include_once("user_in.php");
@@ -20,11 +20,11 @@ else
 <?php include_once('css/css.php');?>
 <!--<script type="text/javascript" src="script/fbsdk.js"></script> 
 <script type="text/javascript" src="script/fblog.js"></script>-->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="script/timestamp.js"></script>
+<title>TavarezSafetyConsulting</title>
 </head>
-<body>
+<body id="body">
 <div id="fb-root"></div>
 <script>
 (function(d, s, id) {
@@ -79,7 +79,7 @@ else
     <div id="categoryDiv">
        <?php $object->newsCategory();?>
     </div>
-    <div id="copyRight">&copy linkedVoice</div>
+    <div id="copyRight">&copy TavarezSafetyConsulting</div>
     <div id="contact">FeedBack</div>
     <div id="category">News Category</div>
     <div id="contactForm">
@@ -131,13 +131,16 @@ else
 </body> 
 <footer>
 <div id="loggedUser" style="display:none;" value="<?php echo $user; ?>"></div>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+
 <script type="text/javascript" src="script/linkedScript.js"></script>	
 <script type="text/javascript" src="script/slide.js"></script> 
 <script type="text/javascript" src="script/ajax.js"></script> 
 <script type="text/javascript" src="script/button.js"></script>
 <script type="text/javascript" src="script/load.js"></script>
 <script type="text/javascript" src="script/recursive.js"></script>
+<script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+<script type="text/javascript" src="script/pageMotion.js"></script>
 <?php  include('script/script.php'); /*include_once('voice.php');*/ ?>
 </footer>
 </html>

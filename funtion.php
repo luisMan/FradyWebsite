@@ -245,7 +245,7 @@
                  for($i=0; $i<mysqli_num_rows($query); $i++){
                   $row =  mysqli_fetch_row($query);
 
-                  echo '<img src="'.$row[3].'" caption="'.$row[2].'"><a  style="float:right; display:none; background-color:black;" href="index.php#'.$row[0].'" class="btn btn-info btn-lg">
+                  echo '<img src="'.$row[3].'" caption="'.$row[2].'" width="1700" height="700"><a  style="float:right; display:none; background-color:black;" href="index.php#'.$row[0].'" class="btn btn-info btn-lg">
               <span class="glyphicon glyphicon-arrow-down"></span>'.$row[2].'</a></img>';
                   }
                   //here we put the images with some src and captions and also links  

@@ -4,8 +4,6 @@
 
 !function(){}();
 $(document).ready(function() {
-  // var slideAttr = ["img/hungryWorm.png","img/fruitPlanet.png","img/java.png","img/title.jpg","img/web.png"];
-  // var slideCapt =["Hungry Worm World 2d Game","Fruit Planet Comming soon","Java is fun NioCoder Engine is base on java","Hit the Rabit our new Game on Android","Web developnment is awsome why don't you try it"];
    var runningAttr=['img/playing.png','img/paused.png'];
    var running=true, index =0;
    //var slideTOp = slideAttr.length , counter = 0, speed = 2000;//secs ;
@@ -64,9 +62,7 @@ $(document).ready(function() {
                     }            
                    slideB.css('background-image', 'url('+nextSlide.attr('src')+')');
                    slideB.css('background-repeat', 'no-repeat');
-                   slideB.css('background-size', '100%');
-                   slideB.css('width',' 1000px');
-                   slideB.css('height','300px');
+                   slideB.css('background-size', '1500px 690px');
                    slideB.css('z-index','1');
                    //Call to my Caption Text
                    $('#ids').fadeIn(1000);
@@ -76,7 +72,7 @@ $(document).ready(function() {
                    slideB.animate({
                    opacity: 0.10},speed);
                     if(nextSlide.next().is("a")){
-                       nextSlide.next().slideToggle(speed+5000);
+                       nextSlide.next().slideToggle(speed+1000);
                     }         
 
 
